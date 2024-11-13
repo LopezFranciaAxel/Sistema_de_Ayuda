@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/255cbf77-8c4a-44a7-b6e9-4f9650d32706)# Sistema de Ayuda con archivos HTML (Browser)
+# Sistema de Ayuda con archivos HTML (Browser)
 
 ## Introducción
 
@@ -59,9 +59,8 @@ Sistema_de_Ayuda/
 ### Paso 5: Configuración de Opciones en config.ini
 El archivo config.ini permite activar o desactivar ciertas funciones en la aplicación. Este archivo debe contener configuraciones como:
 
-[AppSettings]
-forward_button_enabled = True
-search_icon_enabled = True
+![image](https://github.com/user-attachments/assets/0ddcdc51-f609-4dc8-ac5d-8079286bd3e9)
+
 
 ### Paso 6: Creación del Ejecutable con PyInstaller
 Para generar el ejecutable de main.py, ejecuta el siguiente comando en la terminal:
@@ -75,6 +74,9 @@ Este comando genera una carpeta dist que contiene el archivo main.exe.
 2. Abre Inno Setup y carga el archivo setup.iss que se encuentra en la carpeta del proyecto.
 3. Configura la ruta del ejecutable generado (main.exe) y otros archivos necesarios (como html_files, config.ini, styles.css).
 4. Compila el instalador presionando F9. Esto generará el archivo Sistema_de_Ayuda_Installer.exe, que puedes distribuir en otros dispositivos.
+
+![image](https://github.com/user-attachments/assets/dd201f00-192a-4c87-9d40-f32dbad5cec0)
+
 
 ---
 
