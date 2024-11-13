@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    color: white;
+}
+
+.container {
+    margin: 20px;
+}
+
+
+.section-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+.section-list ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #000000; 
+    color: white; 
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.section-list ul li:hover {
+    background-color: #333333; 
+}
+
+
+.numbered-list {
+    list-style-type: decimal; 
+    padding-left: 20px;
+}
+
+
+.numbered-list li {
+    cursor: default;
+    background-color: #000000; 
+    margin: 10px 0;
+    padding: 10px;
+    color: white; 
+}

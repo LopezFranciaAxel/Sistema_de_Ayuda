@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formato de Datos</title>
+    <link rel="stylesheet" href="../html_files/styles.css">
+</head>
+<body>
+
+    
+    <div class="content">
+        <h1>Introducir y dar formato a datos</h1>
+        <p>Introducir y buscar</p>
+    </div>
+
+    <div class="container">
+        <div class="section-list">
+            <ul>
+                <li onclick="loadPage('escribir_datos.html')">Introducir datos manualmente en celdas de hojas de calculo</li>
+                <li onclick="loadPage('relleno.html')">Usar Relleno rápido en Excel</li>
+                <li onclick="loadPage('lista_fecha.html')">Crear una lista de fechas secuenciales</li>
+                <li onclick="loadPage('lista_personal.html')">Crear una lista personalizada</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function loadPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

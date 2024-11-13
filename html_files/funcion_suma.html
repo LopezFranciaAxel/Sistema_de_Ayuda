@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Función SUMA</title>
+    <link rel="stylesheet" href="../html_files/styles.css">
+</head>
+<body>
+    <h1>SUMA (Función SUMA)</h1>
+    <p>La función SUMA suma valores. puede sumar valores individuales, referencias o rangos de celda o una combinacion de las tres. 
+    </p>
+    <p> Por ejemplo:
+        <br>
+        <br>
+        =Suma(A2:A10) Suma los valores de las celdas A2:A10. 
+        <br>
+        <br>
+        =Suma(A2:A10, C2:C10) Suma los valores de las celdas A2:10, asi como las celdas C2:C10. 
+        <br>
+        <br>
+        Practicas recomendadas para SUMA:<br>
+        <br>
+        Esta seccion trata algunos procedimientos recomendados para trabajar con la funcion SUMA. La mayoria de este contenido puede aplicarse para trabajar con otras funciones.
+        <br>
+        <br>
+        El método =1+2 o =A+B: aunque puede escribir =1+2+3 o =A1+B1+C2 y obtener resultados totalmente precisos, estos métodos son propensos a errores por varias razones: 
+        <br>
+        <br>
+        1. Errores de escritura. Imagine que intenta escribir
+        mas valores o valores mas grandes como estos:<br>
+        <br>
+        =14598,93+65437,90+78496,23<br>
+        <br>
+        Despues, intente validar que sus entradas son correctas. Es mucho mas sencillo poner estos valores en celdas individuales y usar una formulas SUMA. Ademas, puede aplicar formato en los valores cundo estan en las celdas, haciendo que sean mas legibles cuando estan en una formula.<br><br>
+        2. Errores #¡VALOR! al hacer referencia al texto en lugar de a los numeros.<br><br>
+        Si usa una formula como:<br><br>
+        =A1+B1+C1 o =A1+A2+A3<br><br>
+
+        Su fórmula puede romperse si no existen valores no numéricos (texto) en las celdas a las que se hace referencia, lo que devolverá el error #¡VALOR!. SUMA ignorará los valores de texto y le proporcionará solo la suma de los valores numéricos.<br><br>
+
+        3. Error #¡REF! al eliminar filas o columnas.<br><br>
+        Si elimina una fila o una columna, la fórmula no se actualizará para excluir la fila eliminada y devolverá un error #¡REF!, donde la función SUMA la actualizará automáticamente.<br><br>
+
+        4. Las formulas no actualizaran las referencias al insertar filas o columnas<br><br>
+        Si inserta una fila o una columna, la fórmula no se actualizará para incluir la fila agregada, donde una función SUMA la actualizará automáticamente (siempre y cuando no se encuentre fuera del rango al que se hace referencia en la fórmula). Esto es especialmente importante si espera que su fórmula se actualice y no lo hace, ya que le proporcionará resultados incompletos que quizás no detecte.<br><br>
+        
+
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colaborar en Excel</title>
+    <link rel="stylesheet" href="../html_files/styles.css">
+</head>
+<body>
+
+  
+    </div>
+
+    
+    <div class="content">
+        <h1>Colaborar en Excel</h1>
+        <p>Compartir archivos</p>
+    </div>
+
+
+    <div class="container">
+        <div class="section-list">
+            <ul>
+                <li onclick="loadPage('compartir_libro.html')">Compartir el libro de Excel con otros usuarios</li>
+                <li onclick="loadPage('colaborar_en_libros.html')">Colaborar en libros de Excel al mismo tiempo con la co-autoria</li>
+                <li onclick="loadPage('libro_con_contra.html')">Proteger un libro con contraseña</li>
+                <li onclick="loadPage('hoja_con_contra.html')">Proteger una hoja de calculo con o sin contraseña</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function loadPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

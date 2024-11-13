@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formato y Funciones</title>
+    <link rel="stylesheet" href="../html_files/styles.css">
+</head>
+<body>
+
+
+    
+    <div class="content">
+        <h1>Formulas y Funciones en Excel</h1>
+        <p>Obtenga información sobre estas aptitudes principales para crear sus propias fórmulas y funciones.</p>
+    </div>
+
+    <div class="container">
+        <div class="section-list">
+            <ul>
+                <li onclick="loadPage('formulas_general.html')">Informacion general sobre formulas en Excel</li>
+                <li onclick="loadPage('buscarv.html')">BUSCARV</li>
+                <li onclick="loadPage('funcion_suma.html')">Funcion SUMA</li>
+                <li onclick="loadPage('contar_si.html')">Funcion CONTAR.SI</li>
+                <li onclick="loadPage('funcion_si.html')">Funcion SI</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function loadPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

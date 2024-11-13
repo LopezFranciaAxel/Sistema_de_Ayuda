@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción</title>
+    <link rel="stylesheet" href="../html_files/styles.css">
+</head>
+<body>
+
+    <div class="content"></div>
+        <h1>Introducción a la aplicacion de Ayuda</h1>
+        <p>En esta aplicacion encontraras indicaciones sobre como utilizar diferentes herramientas.</p>
+    </div>
+
+    
+    <div class="container">
+        <div class="section-list">
+            <ul>
+                <li onclick="loadPage('formato_y_funciones.html')">Formulas y Funciones</li>
+                <li onclick="loadPage('formato_de_datos.html')">Formato de Datos</li>
+                <li onclick="loadPage('colaborar.html')">Colaborar</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function loadPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
