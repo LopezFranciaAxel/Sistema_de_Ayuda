@@ -35,25 +35,8 @@ Estos paquetes proporcionan los módulos PyQt5 y PyQtWebEngine, que se utilizan 
 Paso 4: Estructura de Archivos del Proyecto
 Dentro de la carpeta de tu proyecto, asegúrate de tener la siguiente estructura:
 
-Sistema_de_Ayuda/
-│
-├── main.py                  # Script principal de la aplicación
-├── config.ini               # Archivo de Parámetros configurables de la app
-├── README.md                # Documento de ayuda y explicacion (este archivo)
-├── html_files/              # Carpeta que contiene los archivos HTML
-│   ├── introduccion.html
-│   ├── formato_y_funciones.html
-│   └── ...                  # Otros archivos HTML y CSS
-├──build/                    # Carpeta que contiene caracteristacas del ejecutable main.exe (Se crea automaticamente cuando se ejecuta el .exe por primera vez)
-|   └──main/
-|       └──...
-├──dist                      # Carpeta que contiene el ejecutable del Proyecto
-|   └──main.exe  
-├──main.spec                 # Archivo que contiene las especificaciones del ejecutable main.exe
-└──instalador                # Carpeta que contiene el instalador del Proyecto y el Script de Inno Setup para crear el instalador
-    └──Output
-    |   └──Sistema_de_Ayuda_Installer.exe
-    └──setup.iss 
+![Uploading image.png…]()
+
 
 
 ### Paso 5: Configuración de Opciones en config.ini
