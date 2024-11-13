@@ -35,7 +35,8 @@ Estos paquetes proporcionan los módulos PyQt5 y PyQtWebEngine, que se utilizan 
 Paso 4: Estructura de Archivos del Proyecto
 Dentro de la carpeta de tu proyecto, asegúrate de tener la siguiente estructura:
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/f9b6a316-2968-4129-aadf-f71fa8525b3c)
+
 
 
 
