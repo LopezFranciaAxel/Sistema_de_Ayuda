@@ -53,6 +53,11 @@ pyinstaller --onefile --windowed --add-data "html_files;html_files" --add-data "
 
 Este comando genera una carpeta dist que contiene el archivo main.exe.
 
+### Vista del ejecutable en funcionamiento
+
+![Ejecutable](https://github.com/user-attachments/assets/d3e3d7be-5689-44b5-bc46-463b9fd14086)
+
+
 ### Paso 7: Creación del Instalador con Inno Setup
 1. Descarga e instala Inno Setup.
 2. Abre Inno Setup y carga el archivo setup.iss que se encuentra en la carpeta del proyecto.
@@ -61,6 +66,14 @@ Este comando genera una carpeta dist que contiene el archivo main.exe.
 
 ![image](https://github.com/user-attachments/assets/dd201f00-192a-4c87-9d40-f32dbad5cec0)
 
+
+### Vista del Instalador cuando se esta ejecutando en un dispositivo, se descarga por automaticamente en la carpeta Archivos de programa (x86).
+
+![Instalador](https://github.com/user-attachments/assets/34c41b03-4cbd-4344-b853-b7b2938f04e7)
+
+### Una vez descargado el instalador en Archivos de programa (x86), este creara una carpeta llamada Sistema_de_Ayuda la cual contendra todas las carpetas y archivos del Proyecto.
+
+![Contenido_de_Instalador](https://github.com/user-attachments/assets/4376950e-1642-4a5e-982c-a49e592e8059)
 
 ---
 
